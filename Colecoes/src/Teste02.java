@@ -9,7 +9,7 @@ public class Teste02 {
         lista.add(new Aluno(55,"Ana","SI"));
         lista.add(new Aluno(53,"Edu","DC"));
         lista.add(new Aluno(51,"Luis","SI"));
-        lista.add(new Aluno(55,"Ana","Engenharia"));
+        lista.add(new Aluno(50,"Ana","Engenharia"));
 
         lista.forEach(aluno -> System.out.println(aluno));
     }
