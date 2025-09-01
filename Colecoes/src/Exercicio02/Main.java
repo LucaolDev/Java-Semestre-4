@@ -18,7 +18,7 @@ public class Main {
 
         // lista contendo os alunos matriculaods nas duas turmas
         Set<Aluno> uniao = new HashSet<>(turmaBD);
-        uniao.addAll(turmaED);
+        uniao.retainAll(turmaED);
 
         uniao.forEach(aluno -> System.out.println(aluno));
 
