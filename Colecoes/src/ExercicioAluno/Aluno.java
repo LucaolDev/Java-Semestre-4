@@ -1,3 +1,5 @@
+package ExercicioAluno;
+
 public class Aluno {
     private int rm;
     private String nome;
