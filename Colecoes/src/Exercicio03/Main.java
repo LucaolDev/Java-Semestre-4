@@ -22,6 +22,7 @@ public class Main {
             System.out.println(entry.getKey() + " --> " + entry.getValue());
         }
 
+        //ordenado
         System.out.println();
         Set<Character> chave = contador.keySet();
         TreeSet<Character> arvore = new TreeSet<>(chave);
